@@ -7,16 +7,18 @@
 ! https://community.fortinet.com/t5/FortiGate/Technical-Tip-How-to-block-iCloud-Private-Relay-from-bypassing/ta-p/228629
 ! Last modified: 2025-09-08T09:09:51.134Z
 !
+||mask.apple.com^
+||mask-private-replay.apple.com^
+||mask.icloud.com^
+||mask-h2.icloud.com^
+||mask-api.icloud.com^
+||mask-t.apple-dns.net^
+||mask-api.fe.apple-dns.net^
+||mask.apple-dns.net^
 ||doh.dns.apple.com.v.aaplimg.com^
 ||doh.dns.apple.com^
 ||appleproxy.com^
 ||proxy.gslb.apple.com^
 ||relay.apple-dns.net^
 ||p13n-relay.apple.com^
-||mask.apple.com^
-||mask-private-replay.apple.com^
-||mask.icloud.com^
-||mask-h2.icloud.com^
-||mask-t.apple-dns.net^
-||mask-api.fe.apple-dns.net^
-||mask.apple-dns.net^
+||gsp85-ssl.Is.apple.com^
