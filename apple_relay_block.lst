@@ -1,0 +1,24 @@
+# -------------------------------------[INFOS]-----------------------------------------------------------------
+# Title: Dark's Private Relay Blocklist
+# Blocks iCloud Private Relay and related private relays (Apple Private Relay / Private Email Relay / traffic relays), preventing anonymous routing through Apple relays.
+# Version: 1.0.0
+# Homepage: https://github.com/DarkGames26/Apple-Relay-Blocklist
+# Why it's more noticeable in iOS 14+: https://blog.cloudflare.com/speeding-up-https-and-http-3-negotiation-with-dns/
+# -------------------------------------[UPDATES]---------------------------------------------------------------
+# Last modified: Monday, 8 Sep 2025
+# -------------------------------------[DNS FILTERS]-----------------------------------------------------------
+0.0.0.0 mask.apple.com
+0.0.0.0 mask-private-replay.apple.com
+0.0.0.0 mask.icloud.com
+0.0.0.0 mask-h2.icloud.com
+0.0.0.0 mask-api.icloud.com
+0.0.0.0 mask-t.apple-dns.net
+0.0.0.0 mask-api.fe.apple-dns.net
+0.0.0.0 mask.apple-dns.net
+0.0.0.0 doh.dns.apple.com.v.aaplimg.com
+0.0.0.0 doh.dns.apple.com
+0.0.0.0 appleproxy.com
+0.0.0.0 proxy.gslb.apple.com
+0.0.0.0 relay.apple-dns.net
+0.0.0.0 p13n-relay.apple.com
+0.0.0.0 gsp85-ssl.Is.apple.com
